@@ -1,7 +1,10 @@
 language: ruby
 rvm:
- - 2.2
+- 2.2
 deploy:
   provider: heroku
   api_key:
-    secure: "68a88cfa-2108-466d-a5e0-f8d39fee1966"
+    secure: X9sf87x0Q8nhpYqyua2xfRGgkvGGJrRey97qUWKVqaOckypNiPXKC+QsgApvhaJG1n73VcyPzMCQwjRjccl1u/4ZtCGlrWQU9CmQLiN9J3039AIXtIU+Kud+kGGvkp/Cs0wvS9rjxK8niYGcD7Brm9PqhZ30+716Isxnhq0WirerMfdwHvUCJn4vzKYWrjlfMnczGgEiPIS43LvNWNUTss3NUpjlQnS40kTyGvvym5L1RZMmuDyrhOgWmUo+DKPDCEFZBhpcHKhJ8xchbjVHrI2DPZbI8a8QwaDgOaRMr/VGOQa5+uEeesykHmMauga3bgSA7NN2Y56lo2BM1TBNwOgDyshbxfcKQBy1CtwR3qwccK0M1f6cAQXhBSlUg29raCsgHf+7D1eCNZ7C5VmU5RhN6T0fGaNt/WJszV2ZIEXgh/udkhGg8Nx7LptUNWAF4a4opMtcb7tPbfT5Wdb9GgBlBma1vOiHMEc2VmFRVeimoyeNei3+ooak59UZ1wU0QP/pPvtti9qwL7cPhmb3LEIVDpcjpzRZpoZKy+WgyMsLAAx4zAIX+L+AlWuwWeXGU2wW2pt15FyeLYXPhRN81pUM6gFzsbXADk99f2BCSObd2DxjJCcLURfjHpt0ob/QhcUaduFspdeDR9bs/GMdXsKY2kP86Ah+33Ak+4lDAfI=
+  app: projet
+  on:
+    repo: balmajoe/projet
