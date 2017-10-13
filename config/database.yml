@@ -27,4 +27,4 @@ production:
   user: lhvhapcrhqwqyk
   port: 5432
   password: b475c3d345bd88640082fa3eebe0fb789f6c72fefa856ddad4420915b867400c
-  pool:
+  pool: 5
