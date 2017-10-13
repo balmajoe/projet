@@ -4,8 +4,6 @@ source 'https://rubygems.org'
 
 gem 'sqlite3' , group: [:development, :test]
 
-
-
 gem 'pg','~> 0.21.0', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
