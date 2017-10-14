@@ -8,3 +8,4 @@ deploy:
   app: lpa1
   on:
     repo: balmajoe/projet
+  run: "rake db:migrate"
